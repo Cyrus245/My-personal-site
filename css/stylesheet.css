@@ -1,0 +1,140 @@
+ *{ 
+    margin: 0;
+    padding:0;
+}
+
+body{
+
+    background-color:#F9D5A7;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+ 
+    
+ 
+}
+h1{
+
+    margin-top: 50px;
+    font-size:5.625rem;
+    Font-family: 'Sacramento', cursive;
+    color:  #66BFBF;
+    
+}
+
+h2{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    line-height: 2;
+    
+
+}
+
+.top-container h2{
+
+    color: black;
+}
+
+h3{
+
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+a:link{
+
+    color:#11999E;
+}
+a:hover{
+
+    color:#119e18;
+}
+
+p{
+
+    margin-top: 20px;
+    padding-bottom: 20px;
+   
+
+}
+.skills h2{
+
+  margin-bottom: 20px;
+
+}
+
+.skill-row{
+
+
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height:2;
+}
+ 
+
+
+.top-container{
+
+    padding-top: 100px;
+    /* background-color: #B24080; */
+    background-color: #FEF1E6;
+    position: relative;
+
+}
+.top-container h2{
+
+
+    font-weight: normal;
+}
+
+.profile img{
+
+    width: 220px;
+}
+
+.skill-img{
+    width: 120px;
+    float: left;
+    margin-right:30px; 
+}
+
+.skill-music{
+
+    width: 120px;
+    float: right;
+    margin-right:20px; 
+
+
+}
+
+.skill-img-desc{
+
+
+    clear: left;
+}
+
+.skill-music-desc{
+
+    clear: right;
+
+}
+.top-cloud{
+
+    position: absolute; 
+    right: 300px; 
+    top: 50px;
+ 
+}
+
+.bottom-cloud{
+
+ position: absolute; 
+ bottom: 300px;
+ left: 300px;
+
+
+}
+
+
