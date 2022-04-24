@@ -13,7 +13,8 @@
 
  a:hover {
 
-     color: #EAF6F6;
+     color: #EEEEEE;
+     text-decoration: none;
  }
 
 
@@ -43,59 +44,18 @@
      margin-top: 70px;
      padding: 20px;
 
+
  }
 
 
-
- .btn {
-     background: #3D94F6;
-     background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-     background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-     background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-     background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-     background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-     -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-     border-radius: 8px;
-     height: 25px;
-     line-height: 25px;
-     color: #FFFFFF;
-     font-family: 'Merriweather', serif;
-     ;
-     width: 169px;
-     font-size: 20px;
-     font-weight: 200;
-     padding: 14px;
-     -webkit-box-shadow: 1px 1px 20px 0 #000000;
-     -moz-box-shadow: 1px 1px 20px 0 #000000;
-     box-shadow: 1px 1px 20px 0 #000000;
-     text-shadow: 1px 1px 20px #000000;
-     border: solid #337FED 1px;
-     text-decoration: none;
-     display: inline-block;
-     cursor: pointer;
-     text-align: center;
-     margin-top: 40px;
- }
-
- .btn:hover {
-     border: solid #337FED 1px;
-     background: #1E62D0;
-     background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-     background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-     background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-     background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-     background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-     -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-     border-radius: 8px;
-     text-decoration: none;
- }
 
  .contact-massage {
 
      width: 40%;
      margin: 40px auto 60px;
+     font-family: 'Square Peg',
+         cursive;
+     font-size: 2rem;
 
 
  }
@@ -109,6 +69,24 @@
 
  }
 
+ .contact-h2 {
+     font-family: 'Updock',
+         cursive;
+     color: #06113C;
+
+
+
+ }
+
+ .contact-h3 {
+     font-family: 'Roboto Mono',
+         monospace;
+     color: #22577E;
+     /* font-weight: bolder; */
+     font-size: 1rem;
+
+
+ }
 
 
 
@@ -164,7 +142,34 @@
      padding-bottom: 20px;
      line-height: 2;
 
+
  }
+
+ .p-skill {
+
+
+     font-family: 'Indie Flower',
+         cursive;
+     font-size: 1.5rem;
+
+ }
+
+ .p-intro {
+
+     font-family: 'Roboto Mono',
+         monospace;
+     font-weight: bold;
+ }
+
+ .profile h2 {
+     color: black;
+
+     font-family: 'Updock',
+         cursive;
+
+
+ }
+
 
  .profile img {
 
@@ -172,6 +177,11 @@
  }
 
  .skills h2 {
+
+     color: #363062;
+     font-family: 'Permanent Marker',
+         cursive;
+     font-weight: lighter;
 
      margin-bottom: 20px;
 
@@ -184,6 +194,12 @@
      margin: 100px auto;
      text-align: left;
 
+ }
+
+ .skill-row h3 {
+
+     font-weight: bold;
+     color: #F8B400
  }
 
  .skill-img {
@@ -226,4 +242,14 @@
 
      font-weight: normal;
      color: black;
+ }
+
+ .footer-link {
+
+
+     color: #3A3845;
+     font-family: 'Baloo 2',
+         cursive;
+     font-size: 1rem;
+
  }
